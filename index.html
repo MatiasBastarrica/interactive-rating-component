@@ -21,21 +21,37 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
-
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
+    <main>
+      <article class="rating-component">
+        <div class="star-container"></div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form action="">
+          <div class="ratings-inputs-container">
+            <input type="radio" name="rating" value="1" id="one-star" />
+            <input type="radio" name="rating" value="2" id="two-star" />
+            <input type="radio" name="rating" value="3" id="three-star" />
+            <input type="radio" name="rating" value="4" id="four-star" />
+            <input type="radio" name="rating" value="5" id="five-star" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+      <dialog>
+        <img src="./images/illustration-thank-you.svg" alt="" />
+        <p class="rating-selection-message">
+          You selected <span class="rating-selection"></span> out of 5
+        </p>
+        <h2>Thank you!</h2>
+        <p class="description">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </dialog>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
