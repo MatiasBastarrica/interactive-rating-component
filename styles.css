@@ -234,16 +234,21 @@ dialog p.description {
 /* ### MEDIA QUERIES ### */
 
 @media (min-width: 23.438em) {
-  h1 {
+  .title {
     font-size: 1.8rem;
   }
 
-  p.description {
+  .description {
     font-size: 0.925rem;
   }
 
   .rating-component {
     max-width: 390px;
     padding: 2rem 2.2rem;
+  }
+
+  dialog {
+    max-width: 410px;
+    padding: 2.3rem;
   }
 }
