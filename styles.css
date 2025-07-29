@@ -47,3 +47,11 @@ textarea,
 select {
   font: inherit;
 }
+
+/* ### UTILITY CLASSES ### */
+
+.circle-bg {
+  padding: 0.4rem;
+  display: grid;
+  place-items: center;
+}
