@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-mb-8BFPegRLlS)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/interactive-rating-component/)
 
 ## My process
