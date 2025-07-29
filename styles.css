@@ -127,7 +127,6 @@ input[type="radio"] {
 }
 
 input[type="radio"]::before {
-  /* color: inherit; */
   color: var(--grey-500);
   position: absolute;
   top: 50%;
