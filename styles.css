@@ -54,6 +54,17 @@ select {
   padding: 0.4rem;
 } */
 
+.title {
+  font-weight: var(--fw-700);
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  line-height: 1.8;
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
@@ -61,19 +72,6 @@ body {
   font-family: var(--ff-overpass);
   font-weight: var(--fw-400);
   color: var(--grey-500);
-}
-
-h1 {
-  font-weight: var(--fw-700);
-  color: var(--white);
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-p.description {
-  margin-top: 0.8rem;
-  font-size: 0.875rem;
-  line-height: 1.8;
 }
 
 main {
@@ -90,6 +88,14 @@ main {
   background: linear-gradient(to bottom, rgb(34 41 51), rgb(24 31 41));
   padding: 1.8rem 1.6rem;
   border-radius: 0.985rem;
+}
+
+.rating-component h1 {
+  margin-top: 1.5rem;
+}
+
+.rating-component p.description {
+  margin-top: 0.8rem;
 }
 
 .star-container {
@@ -184,6 +190,45 @@ form button {
 form button:hover {
   background-color: var(--white);
   cursor: pointer;
+}
+
+/* ### DIALOG ### */
+
+dialog {
+  color: inherit;
+  text-align: center;
+  border: none;
+  border-radius: 0.9rem;
+  background: linear-gradient(to bottom, rgb(34 41 51), rgb(24 31 41));
+  padding: 1.8rem 1.6rem;
+  margin: auto;
+}
+
+dialog::backdrop {
+  background-color: var(--grey-950);
+}
+
+dialog img {
+  margin-inline: auto;
+}
+
+.rating-selection-message {
+  color: #d3752c;
+  font-weight: var(--fw-700);
+  margin-top: 1.5rem;
+  background-color: #272e38;
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  border-radius: 200px;
+  font-size: 0.985rem;
+}
+
+dialog h2 {
+  margin-top: 1.5rem;
+}
+
+dialog p.description {
+  margin-top: 0.625rem;
 }
 
 /* ### MEDIA QUERIES ### */
